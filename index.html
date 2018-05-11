@@ -523,45 +523,29 @@
                     <!-- contact form content -->
                     <div class="contact-form-area">
                         <!-- contact form -->
-                        <div class="contact-form">
-                            <form action="mail.php" method="POST" id="active-contact-form">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="name" placeholder="Your Name" class="form-control" required="" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="email" placeholder="Your Email" class="form-control" required="" type="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="phone" placeholder="Phone Number" class="form-control" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="subject" placeholder="Subject" class="form-control" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-message">
-                                            <textarea class="field-element form-control" data-gramm="true" spellcheck="false" data-gramm_editor="true" name="message"
-                                                placeholder="Message" required=""></textarea>
-                                        </div>
-                                        <button type="submit" name="submit" class="oxe-btn hvr-shutter-out-horizontal sent-button">send message</button>
-                                    </div>
-                                </div>
+                        <section class="main-section">
+                            <h1>Contact</h1>
+                      
+                            <form id="contact-form">
+                              <ul>
+                                <li>
+                                  <label for="name">Name</label>
+                                  <input type="text" id="name" name="name" placeholder="your name" required="required">
+                                </li>
+                                <li>
+                                  <label for="email">Email</label>
+                                  <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                </li>
+                                <li>
+                                  <label class="message" for="message">Message</label>
+                                  <textarea id="message" name="message" required="required"></textarea>
+                                </li>
+                              </ul>
+                              <input type="submit">
                             </form>
-                            <p class="thank-you-message"></p>
-                        </div>
-                        <!-- /.contact form -->
+                      
+                          </section>                        
+                          <!-- /.contact form -->
                     </div>
                     <!-- /.contact form content -->
                 </div>
