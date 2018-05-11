@@ -1,0 +1,83 @@
+/** 
+ *
+ * ---------------------------------------------------------------------------
+ *
+ * Template Name: oXe - Dark Personal Portfolio Template.
+ * Template URL:  http://lovesome.biz/oxe
+ * Author : urosd
+ * Version : 1.0
+ *
+ * --------------------------------------------------------------------------- 
+ *
+ */
+
+.light-bg.menu-bg,
+.ab-light-bg {
+    background-color: #fff;
+}
+
+.light-bg.menu-bg {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gr-light-bg,
+.light-bg.menu-bg .main-menu ul li a,
+.light-bg.menu-bg .logo h2,
+.ab-light-bg,
+.gr-light-bg .post-meta li a,
+.gr-light-bg .news-content a h2,
+.ab-light-bg .contact-info-content h2,
+.ab-light-bg .contact-info-content p,
+.ab-light-bg .address-info ul li span,
+.ab-light-bg .address-info ul li span i.fa,
+.ab-light-bg .address-info ul li a,
+.ab-light-bg .address-info ul li,
+.gr-light-bg .news-content p {
+    color: #1a1a1a !important;
+}
+
+.gr-light-bg .service-info h3 {
+    color: #1a1a1a;
+}
+
+.gr-light-bg .service i.fa {
+    border-color: #1a1a1a;
+    color: #777;
+}
+
+.light-bg .dropdown ul.dropdown-menu li a {
+    color: #fff !important;
+}
+
+.ab-light-bg .section-title h2,
+.ab-light-bg .section-title p,
+.gr-light-bg .section-title h2,
+.gr-light-bg .section-title p {
+    color: #1a1a1a;
+}
+
+.ab-light-bg .hvr-shutter-out-horizontal,
+.gr-light-bg .hvr-shutter-out-horizontal {
+    background: #3a3a3a;
+    color: #fff;
+}
+
+.gr-light-bg {
+    background-color: #F6F6F6;
+}
+
+.ab-light-bg .form-content input {
+    color: #1a1a1a;
+    border-color: #777;
+}
+
+.ab-light-bg .form-message textarea {
+    color: #1a1a1a !important;
+}
+
+.ab-light-bg .contact-info-content,
+.ab-light-bg .contact-form::before,
+.ab-light-bg .contact-info-content::before,
+.ab-light-bg .contact-info-content::after {
+    border-color: #1a1a1a;
+}
