@@ -1399,13 +1399,15 @@ h3.comment-heading {
 }
 
 textarea {
-    height: 200px !important;
-    margin: 0 0 20px;
+    height: 300px !important;
+    width: 600px !important;
+    margin: 0 20px 20px;
     padding: 20px 10px !important;
     background-color: transparent !important;
     color: #fff !important;
     border-color: #777 !important;
 }
+
 
 .sent-button {
     border: 0;
@@ -1495,6 +1497,11 @@ p.error {
     padding: 10px 20px;
     width: 70%;
     border: 1px solid #777;
+}
+
+#submit {
+    color: #2B2B2B;
+    
 }
 
 .subscribe-form button.oxe-btn {
