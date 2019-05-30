@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+html {
+    // Define size of 1 rem
+    font-size: 62.5%; // 1rem = 10px (10px/16px in %)
+
+    @include respond(large-desktop) {
+        font-size: 75%; // 1rem = 12px
+    }
+    @include respond(tab-land) {
+        font-size: 60%; 
+    }
+    // @include respond(tab-port) {
+    //     font-size: 60%; 
+    // }
+    @include respond(phone) {
+        font-size: 56.25%; // 1rem = 9px
+    }
+}
+
+body {
+    box-sizing: border-box;
+}

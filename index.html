@@ -1,733 +1,322 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="zxx" class="no-js">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- ======= titles ======= -->
-    <title>DevDozzi--- Full Stack Developer</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="themewarehouse">
-    <!-- ======= favicon ======= -->
-    <link rel="icon" type="image/png" href="favicon.png">
-    <!-- ======= Google Fonts ======= -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-    <!-- ======= All CSS ======= -->
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/fa-svg-with-js.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/scroll.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather" rel="stylesheet">
 
-    <!-- owl carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- vegas css -->
-    <link rel="stylesheet" href="css/vegas.min.css">
-    <!-- hover css -->
-    <link rel="stylesheet" href="css/hover.css">
-    <!-- typing css -->
-    <link rel="stylesheet" href="css/typing.css">
-    <!-- lightbox css -->
-    <link rel="stylesheet" href="css/lightbox.min.css">
-    <!-- normalize css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Vincent Nardozzi | Frontend Developer | Charlotte, North Carolina</title>
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
+<body>
+    <header class="header">
+        <div class="header__polygon"></div>
 
-    <!-- ======= preloader part start ======= -->
-    <div class="preloader">
-        <div class="spinner">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
-        </div>
-    </div>
-    <!-- ======= preloader Part end ======= -->
-
-    <!-- ======= Header Part Start ======= -->
-    <header class="header-area navbar-fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-xs-3">
-                    <!-- logo part -->
-                    <div class="logo">
-                        <a href="#">
-                            <h2>DevDozzi</h2>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-10 col-xs-9">
-                    <!-- menu part -->
-                    <div class="menu-part">
-                        <nav class="navbar navbar-default">
-                            <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                                        aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse main-menu" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav">
-                                        <li class="active">
-                                            <a class="nav-link" href="#top">home</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link" href="#about">about me</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link" href="#service">service</a>
-                                        </li>
-                                        <li>
-                                            <a class="nav-link" href="#portfolio">portfolio</a>
-                                        </li>
-                                        <!--<li>
-                                            <a class="nav-link" href="#testmonial">testmonial</a>
-                                        </li> -->
-                                        <li>
-                                            <a class="nav-link" href="#contact">contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+        <nav>
+            <div class="nav__button--toggle">
+                <ion-icon name="menu"></ion-icon>
             </div>
+
+            <ul class="nav">
+                <li>
+                    <a class="scroll" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="scroll" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="button button--yellow scroll">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__picture__box">
+            <img src="./img/34462591.png" alt="profile-picture" class="header__picture__image">
+        </div>
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Vincent Nardozzi</span>
+                <span class="heading-primary--sub">Frontend Developer</span>
+            </h1>
         </div>
     </header>
-    <!-- ======= Header Part End ======= -->
 
-    <!-- ======= slider part start ======= -->
-    <section id="top" class="slider-area">
-        <div class="container">
-            <!-- slider info -->
-            <div class="slider-table">
-                <div class="slider-table-cell">
-                    <h2>Vincent</h2>
-                    <h2>Nardozzi</h2>
-                    <p class="cd-headline clip is-full-width">
-                        Professional
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible"> Web Designer and</b>
-                            <b>Web developer</b>
-                        </span>
-                    </p>
-                    <!--Will uncomment once resume is updated for coding-->
-                    <!-- <a class="oxe-btn hvr-shutter-out-horizontal" href="#">resume</a>-->
-                    <a class="oxe-btn hvr-shutter-in-horizontal" href="https://www.linkedin.com/in/vincent-nardozzi-18b7a8129/" target="_blank">hire me</a>
-                </div>
+    <main>
+        <div class="section-about" id="about">
+            <div class="section-about__text">
+                I’m a front-end developer and UI/UX designer that loves to create clean and functional sites. I have a passion for bringing stunning yet simplistic designs to life. 
+            </div>
+
+            <div class="section-about__button">
+                <a href="https://docs.google.com/document/d/1F2v4IYS4qYwIPN4hY8DGqCI0iBD-4T54pjrjEp68HMc/edit?usp=sharing" class="button button--yellow" id="resume" target="_blank">Download Resume</a>
             </div>
         </div>
-    </section>
-    <!-- ======= slider part end ======= -->
 
-    <!-- ======= about part start ======= -->
-    <section id="about" class="about-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <!-- section title -->
-                    <div class="section-title text-center">
-                        <h2>about me</h2>
-                        <p>I spent the last 7 years of my professional life as a Sales Specialist, with a focus on providing
-                            exceptional quality to clients in Direct B2P sales. After reaching the pinnacle of my ability
-                            in this career, I felt it was time to apply the skills that I learned there to a new and engaging
-                            field. After pursuing secondary education in Full Stack Web development, I found a love for getting
-                            "hands-on" with projects and providing the same exceptional quality in a new way. As a developer,
-                            I hope to expand the reaches of businesses, small and large. As I was once told, "The internet
-                            never closes, why not take advantage?"</p>
+        <div class="section-skills" id="skills">
+            <div class="skills-box">
+                <h3 class="heading-secondary">My tech stack</h3>
+
+                <div class="table-skills">
+                    <div>
+                        <i class="devicon devicon-javascript-plain"></i> Javascript
+                    </div>
+                    <div>
+                        <i class="devicon devicon-html5-plain-wordmark"></i> HTML 5
+                    </div>
+                    <div>
+                        <i class="devicon devicon-css3-plain-wordmark"></i> CSS 3
+                    </div>
+                    <div>
+                        <i class="devicon devicon-react-original"></i> React
+                    </div>
+                    <div>
+                        <i class="devicon devicon-sass-original"></i> SASS
+                    </div>
+                    <div>
+                        <i class="devicon devicon-bootstrap-plain"></i> Bootstrap
+                    </div>
+                    <div>
+                        <i class="devicon devicon-photoshop-plain"></i> Photoshop
+                    </div>
+                    <div>
+                        <i class="devicon devicon-illustrator-plain"></i> Illustrator
+                    </div>
+                    <div>
+                        <i class="devicon devicon-jquery-plain"></i> jQuery
+                    </div>
+                    <div>
+                        <i class="devicon devicon-nodejs-plain"></i> Node Js
+                    </div>
+                    <div>
+                        <i class="devicon devicon-express-original"></i> Express Js
+                    </div>
+                    <div>
+                        <i class="devicon devicon-github-plain"></i> GitHub
+                    </div>
+                    <div>
+                        <i class="devicon devicon-mysql-plain"></i> MySQL
+                    </div>
+                    <div>
+                        <i class="devicon devicon-sequelize-plain"></i> Sequelize
+                    </div>
+                    <div>
+                        <i class="devicon devicon-mongodb-plain"></i> MongoDB
+                    </div>
+                    <div>
+                        <i class="devicon devicon-heroku-original"></i> Heroku
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="about-img">
-                        <div class="person">
-                            <img src="img/person.jpg" alt="">
-                            <!-- Social Links -->
-                            <div class="social-link">
-                                <a href="https://www.facebook.com/vnardozzi" target="_blank">
-                                    <i class=" awesome fab fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://twitter.com/nard_vincent?lang=en" target="_blank">
-                                    <i class="awesome fab fa-twitter" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://www.instagram.com/vincentnardozzi/" target="_blank">
-                                    <i class=" awesome fab fa-instagram" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/vincent-nardozzi-18b7a8129/" target="_blank">
-                                    <i class="awesome fab fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://github.com/vnardozz" target="_blank">
-                                    <i class="awesome fab fa-github" aria-hidden="true"></i>
-                                </a>
+            <div class="section-skills--yellow">
+                &nbsp
+            </div>
+        </div>
 
+        <div class="section-projects" id="projects">
+            <h3 class="heading-tertiary">My recent projects</h3>
+
+            <div class="project-row">
+                <div class="card-box">
+                    <div class="card" onclick="">
+                        <div class="card__side card__side--front">
+                            <div class="card__img card__img--1">
+                                &nbsp
+                            </div>
+                            <div class="card__heading card__heading--odd">
+                               Know Your News
+                                <span>Test you knowledge on fake news</span>
                             </div>
                         </div>
-                        <h2>Vincent Nardozzi</h2>
-                        <p>web designer & developer</p>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <!-- personal info -->
-                    <div class="about-info">
-                        <p>With a passion for tearing apart anything I could get my hands on and reassembling it, web development
-                            and design was the perfect environment for me to explore and create </p>
-                        <p>My attention to detail provides the client a beautifully constructed, well thought out, and flawlessly
-                            functioning product.</p>
-                        <p>Your mind is like a parachute, it only works when it's open. Once you accept that, the possiblities
-                            are endless!</p>
-                        <!--Will uncomment once resume is updated for coding-->
-                        <!-- a class="oxe-btn hvr-shutter-out-horizontal" href="#">
-                            <i class="fa fa-cloud-download" aria-hidden="true"></i> Download Resume</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======= about part end ======= -->
-
-    <!-- ======= service part start ======= -->
-    <section id="service" class="service-part section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <!-- section title -->
-                    <div class="section-title text-center">
-                        <h2>Service</h2>
-                        <p>Providing a wide array of skills to meet any demand.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-6">
-                    <!-- single service -->
-                    <div class="service service_box1">
-                        <i class="fab fa-js"></i>
-                        <div class="service-info">
-                            <h3>JavaScript</h3>
-                            <p>Any app that CAN be written in JavaScript, eventually WILL be written in JavaScript. A solid
-                                background in this fundemental language allows near limitless functionality to your project.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <!-- single service -->
-                    <div class="service service_box2">
-                        <i class="fab fa-html5" aria-hidden="true"></i>
-                        <div class="service-info">
-                            <h3>html5</h3>
-                            <p> With a high proficiency and deep understanding of HTML5, I provide a beautiful UI that is built
-                                with a mobile first approach.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <!-- single service -->
-                    <div class="service service_box3">
-                        <i class="fab fa-css3" aria-hidden="true"></i>
-                        <div class="service-info">
-                            <h3>css3</h3>
-                            <p>Taking HTML5 a step further with a surgical precission to adding the customized flair every project
-                                deserves
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <!-- single service -->
-                    <div class="service service_box4">
-                        <i class="fab fa-react" aria-hidden="true"></i>
-                        <div class="service-info">
-                            <h3>React</h3>
-                            <p>Using the latest UI JavaScpript Databases to build a simple and effective front-end.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <!-- single service -->
-                    <div class="service service_box5">
-                        <i class="fab fa-node" aria-hidden="true"></i>
-                        <div class="service-info">
-                            <h3>Node.js</h3>
-                            <p> A tool for working in the non-blocking, event-driven I/O paradigm. Server-side powerhouse to
-                                match Client-side experience.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <!-- single service -->
-                    <div class="service service_box6">
-                        <i class="fab fa-angular" aria-hidden="true"></i>
-                        <div class="service-info">
-                            <h3>Angular</h3>
-                            <p>AngularJS is a toolset for building the framework most suited to your application development.
-                                It is fully extensible and works well with other libraries. Another tool provided to enhance
-                                you project!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-    </section>
-    <!-- ======= service part end ======= -->
-
-    <!-- ======= portfolio part start ======= -->
-    <section id="portfolio" class="portfolio-area section-padding parallax">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <!-- section title -->
-                    <div class="section-title text-center">
-                        <h2>Portfolio</h2>
-                        <p>A few examples of skillset in early learning</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Portfolio Menu -->
-                <div class="iso-nav">
-                    <ul>
-                        <li class="portfolio-active" data-filter="*">All</li>
-                        <li data-filter=".basic">Basic</li>
-                        <li data-filter=".advanced">Advanced</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- portfolio content -->
-        <div class="iso-content">
-            <!-- single portfolio -->
-            <div class="single-project iso-item advanced basic graphic">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/02.png" alt="Friend Finder App">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://boiling-badlands-73600.herokuapp.com/" target="_blank">
-                            <h4>Friend Finder</h4>
-                        </a>
-                        <a href="img/portfolio/02.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/FriendFinder.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item basic networking">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/05.png" alt="Psychic game">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://vnardozz.github.io/Psychic-Game/" target="_blank">
-                            <h4>Psychic game</h4>
-                        </a>
-                        <a href="img/portfolio/05.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/Psychic-Game.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item basic graphic">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/03.png" alt="Train-time">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://vnardozz.github.io/TrainTime/" target="_blank">
-                            <h4>Train-time</h4>
-                        </a>
-                        <a href="img/portfolio/03.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/TrainTime.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item advanced">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/06.png" alt="Crypto-coin Tracker site">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://cmg87.github.io/Project-1/" target="_blank">
-                            <h4>Crypto-Coin Tracker</h4>
-                        </a>
-                        <a href="img/portfolio/06.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/cmg87/Project-1.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item advanced  networking">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/01.png" alt="Know Your News site">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://mighty-springs-19377.herokuapp.com/" target="_blank">
-                            <h4>Know Your News!</h4>
-                        </a>
-                        <a href="img/portfolio/01.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/KnowYourNews.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item advanced  networking">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/04.png" alt="burger app">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://lit-wildwood-52667.herokuapp.com/" target="_blank">
-                            <h4>Eat-a-Burger</h4>
-                        </a>
-                        <a href="img/portfolio/04.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/Burger.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item advanced  networking">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/07.png" alt="NYT Mongo DB Scraper">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://aqueous-cove-69984.herokuapp.com/" target="_blank">
-                            <h4>NYT Mongo DB Scraper</h4>
-                        </a>
-                        <a href="img/portfolio/07.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/ScraperSite.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- single portfolio -->
-            <div class="single-project iso-item advanced  networking">
-                <div class="iso-overflow"></div>
-                <img src="img/portfolio/08.png" alt="React Memory Game">
-                <div class="project-lightbox">
-                    <div class="project-lightbox-middile">
-                        <a href="https://vnardozz.github.io/Clicky-Game/" target="_blank">
-                            <h4>React Memory Game</h4>
-                        </a>
-                        <a href="img/portfolio/08.png" data-lightbox="example-set" data-title="work-sample">
-                            <i class="fa fa-expand" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/vnardozz/Clicky-Game.git" target="_blank">
-                            <h4>link to code on my github</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-    </section>
-    <!-- ======= portfolio part end ======= -->
-
-
-    <!-- ======= client part start, eventually will have VERY happy clients who love to give testmonial ======= -->
-
-    <!--
-    <section id="testmonial" class="client-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2"> -->
-    <!-- section title -->
-    <!--                   <div class="section-title text-center">
-                        <h2>happy client</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit earum voluptatum voluptates
-                            similique cupiditate.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="client-comment">
-                        <div class="client-comment-info owl-carousel">
-                        -->
-    <!-- Single client -->
-    <!--                            <div class="client-comments-details">
-                                <img src="img/client/01.jpg" alt="">
-                                <div class="rate">
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adiping elit. Etiam placerat odio nec quam aliquet,
-                                    velsa consectetur neque varius.</p>
-                                <h3>- jonathan doe -</h3>
+                        <div class="card__side card__side--back">
+                            <div class="card__description">
+                                A social experiment site designed to bring awareness to the wealth of information provided to our society and remaining knowledgeable on what is truly accurate.
+                                    Built by four developers over two weeks. Technologies utilized: HTML, CSS, JavaScript, jQuery, Bootstrap, NodeJs and Express, MySQL.
+                                    I worked on the front end with ReactJS and also created the UI/UX.
                             </div>
-
-                        -->
-    <!-- Single client -->
-    <!--                           
-                                 <div class="client-comments-details">
-                                <img src="img/client/02.jpg" alt="">
-                                <div class="rate">
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adiping elit. Etiam placerat odio nec quam aliquet,
-                                    velsa consectetur neque varius.</p>
-                                <h3>- lily adams -</h3>
+                            <div class="card__button">
+                                <a href="https://mighty-springs-19377.herokuapp.com/" class="button button--white" target="_blank">Visit the App</a>
                             </div>
-                        -->
-    <!-- Single client -->
-    <!--
-                            <div class="client-comments-details">
-                                <img src="img/client/03.jpg" alt="">
-                                <div class="rate">
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adiping elit. Etiam placerat odio nec quam aliquet,
-                                    velsa consectetur neque varius.</p>
-                                <h3>- Georjina Parker -</h3>
+                            <div class="icon">
+                                <a href="https://github.com/vnardozz/KnowYourNews" class="social-link" target="_blank">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card" onclick="">
+                        <div class="card__side card__side--front">
+                            <div class="card__img card__img--2">
+                                &nbsp
+                            </div>
+                            <div class="card__heading card__heading--even">
+                                Friend Finder
+                                <span> Survey App to match friends</span>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__description">
+                                An App that allows the user to take a brief survey and based off of their answers matches them with a new friend. 
+                                This was built using these technologies: HTML, CSS/Bootstrap, Javascript, jQuery, API/AJAX, JSON, Heroku, Express.
+                            </div>
+                            <div class="card__button">
+                                <a href="https://boiling-badlands-73600.herokuapp.com/" class="button button--white" target="_blank">Visit the App</a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://github.com/vnardozz/FriendFinder" class="social-link" target="_blank">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section> 
--->
 
-    <!-- ======= client part end ======= -->
-
-
-
-    <!-- ======= contact us area start ======= -->
-    <section class="contact-area section-padding" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <!-- section title -->
-                    <div class="section-title text-center">
-                        <h2>contact me</h2>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-md-7">
-                    <!-- contact form content -->
-                    <div class="contact-form-area">
-                        <!-- contact form -->
-                        <section class="main-section">
-                            <h1>Contact</h1>
-
-                            <form id="contact-form">
-                                <ul>
-                                    <li>
-                                        <label for="name">Name</label>
-                                        <input type="text" id="name" name="name" placeholder="your name" required="required">
-                                    </li>
-                                    <li>
-                                        <label for="email">Email</label>
-                                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                                    </li>
-                                    <li>
-                                        <label class="message" for="message">Message</label>
-                                        <textarea id="message" name="message" required="required"></textarea>
-                                    </li>
-                                </ul>
-                                <input id="submit" type="submit">
-                            </form>
-
-                        </section>
-                        <!-- /.contact form -->
-                    </div>
-                    <!-- /.contact form content -->
-                </div>
-                <div class="col-md-5">
-                    <!-- support info -->
-                    <div class="contact-info-content">
-                        <h2>Get In Touch</h2>
-                        <p>Feel free to reach out at any of the following methods to hire me!</p>
-                        <div class="address-info">
-                            <ul>
-                                <li>
-                                    <span>
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i> address</span> 179 Center St, Cramerton, NC 28056 United States</li>
-                                <li>
-                                    <span>
-                                        <i class="fa fa-envelope" aria-hidden="true"></i> email</span>
-                                    <a href="mailto:Nardozzi24@gmail.com">nardozzi24@gmail.com</a>
-                                </li>
-                                <li>
-                                    <span>
-                                        <i class="fa fa-phone" aria-hidden="true"></i> phone</span>
-                                    <a href="#">704-773-7417</a>
-                                </li>
-                            </ul>
+            <div class="project-row">
+                <div class="card-box">
+                    <div class="card" onclick="">
+                        <div class="card__side card__side--front">
+                            <div class="card__img card__img--3">
+                                &nbsp
+                            </div>
+                            <div class="card__heading card__heading--odd">
+                              React Memory Game
+                                <span>Matching cards </span>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__description">
+                               An app that required breaking up application's UI into components, manage component state, and respond to user events to compare a users selections. The technologies used: JavaScript, CSS/Bootstrap, ReactJs.
+                            </div>
+                            <div class="card__button">
+                                <a href="https://vnardozz.github.io/Clicky-Game/" class="button button--white" target="_blank">Visit the App</a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://github.com/vnardozz/Clicky-Game" class="social-link" target="_blank">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <!-- /.support info -->
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- ======= contact us area end ======= -->
 
-    <!-- map area-->
-    <div class="google-map-area">
-        <!-- map -->
-        <div id="map"></div>
-        <!-- /.map -->
-    </div>
-    <!-- /.map area -->
-
-    <!-- ======= footer area start ======= -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-7">
-                    <div class="copy-right-text">
-                        &copy; copyright DevDozzi 2018. All Rights Reserved.
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-5 text-right">
-                    <div class="subscribe-form">
-                        <input type="email" name="email" placeholder="your email address">
-                        <button type="submit" name="submit" class="oxe-btn hvr-shutter-out-horizontal sent-button">subscribe</button>
+                <div class="card-box">
+                    <div class="card" onclick="">
+                        <div class="card__side card__side--front">
+                            <div class="card__img card__img--4">
+                                &nbsp
+                            </div>
+                            <div class="card__heading card__heading--even">
+                                Lawn and Order
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__description">
+                                This was a site built to allow a local lawn company to reach a larger client base. They requested a simple design that 
+                                would display the services they offer and give some basic info on their origin.
+                            </div>
+                            <div class="card__button">
+                                <a href="https://vnardozz.github.io/LawnAndOrder/index.html" class="button button--white" target="_blank">Visit the App</a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://github.com/vnardozz/LawnAndOrder" class="social-link" target="_blank">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- <div class="project-row">
+                <div class="card-box">
+                    <div class="card" onclick="">
+                        <div class="card__side card__side--front">
+                            <div class="card__img card__img--5">
+                                &nbsp
+                            </div>
+                            <div class="card__heading card__heading--odd">
+                                Coming Soon
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__description">
+                                Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest
+                                spot on the couch to claw at the fabric before taking a catnap hack up furballs yowling nonstop
+                                the whole night. Catty ipsum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card" onclick="">
+                        <div class="card__side card__side--front">
+                            <div class="card__img card__img--6">
+                                &nbsp
+                            </div>
+                            <div class="card__heading card__heading--even">
+                                Coming Soon
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__description">
+                                Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest
+                                spot on the couch to claw at the fabric before taking a catnap hack up furballs yowling nonstop
+                                the whole night. Catty ipsum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
-    </footer>
-    <!-- ======= footer area end ======= -->
 
-    <!-- ======= All JS ======= -->
-    <!-- modernizr js -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- jQuery min js -->
-    <script src="js/vendor/jquery-3.2.1.min.js"></script>
-    <!-- ajax contact js -->
-    <script src="js/ajax-contact.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- owl carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- vegas js -->
-    <script src="js/vegas.min.js"></script>
-    <!-- typing js -->
-    <script src="js/typing.js"></script>
-    <!-- waypoints js -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- circle progress js -->
-    <script src="js/circle-progress.js"></script>
-    <!-- isotope js -->
-    <script src="js/isotope.min.js"></script>
-    <!-- jarallax js -->
-    <script src="js/jarallax.min.js"></script>
-    <!-- lightbox js -->
-    <script src="js/lightbox.min.js"></script>
-    <!-- ====== gmap3 js ======= -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq4jmXOSB3mlhBKAmVhWq5BUmFzvwWIsk"></script>
-    <script src="js/gmap3.min.js"></script>
-    <!-- scrollUp js -->
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <!-- plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- main js -->
-    <script src="js/main.js"></script>
+        <div class="section-contact" id="contact">
+            <p class="section-contact__text text-main">
+                Interested in my work or about me?
+                <br> Do you have  a project/role you think I would be a good fit for?
+                <br> Feel free to send me an email to
+                <a href="mailto:Nardozzi24@gmail.com" class="email">Nardozzi24@gmail.com</a>.
+                <br> I'll be happy to answer your questions and look forward to hearing from you!
+            </p>
 
+            <div class="section-contact__icons">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/vincent-nardozzi/" class="social-link" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/vnardozz" class="social-link" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com/vincentnardozzi/" class="social-link" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/ionicons@4.2.6/dist/ionicons.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
