@@ -7,7 +7,7 @@ document.querySelector('.nav__button--toggle').addEventListener('click', classTo
 
 // Toggle Function
 function classToggle() {
-    navigation.classList.toggle('toggle-show')
+    navigation.classList.toggle('toggle-show');
 }
 
 // When the user scrolls the page, execute myFunction 
